@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/data")
+@RequestMapping("/api/viewAllTransactions")
 @RequiredArgsConstructor
 public class TransactionController {
     private final TransactionService transactionService;
